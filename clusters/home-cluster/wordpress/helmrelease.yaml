@@ -10,7 +10,7 @@ spec:
       chart: wordpress
       version: 28.1.2        # or latest stable from Bitnami
       sourceRef:
-        kind: HelmRepository
+        kind: OCIRepository
         name: bitnami
         namespace: flux-system
   values:
