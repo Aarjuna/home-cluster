@@ -11,7 +11,7 @@ spec:
       version: 28.1.2        # or latest stable from Bitnami
       sourceRef:
         kind: OCIRepository
-        name: bitnami
+        name: bitnami-wordpress
         namespace: flux-system
   values:
     service:
