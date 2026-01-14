@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: OCIRepository
+metadata:
+  name: bitnami-wordpress
+  namespace: flux-system
+spec:
+  interval: 10m
+  url: oci://registry-1.docker.io/bitnamicharts
+  ref:
+    semver: 28.1.2    # or ~28.x.x for latest patch
